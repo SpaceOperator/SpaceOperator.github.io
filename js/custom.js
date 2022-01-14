@@ -110,6 +110,20 @@ $(function() {
   });
 });
 
+$('.VoirPlus').click(function(){
+    var $this = $(this);
+    $this.toggleClass('SeeMore2');
+    if($this.hasClass('SeeMore2')){
+        $this.text('−');
+        $this.css("line-height", "30px");
+        $this.css("height", "36px");
+    } else {
+        $this.text('+');
+        $this.css("line-height", "30px");
+        $this.css("height", "36px");
+    }
+});
+
 
 
 
