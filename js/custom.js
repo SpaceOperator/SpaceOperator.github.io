@@ -124,7 +124,9 @@ $('.VoirPlus').click(function(){
     }
 });
 
-
+$('.VoirPlus').click(function(){
+   $("#showmore").toggle("slow");
+});
 
 
 // chart loding
